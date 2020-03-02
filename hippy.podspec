@@ -33,4 +33,5 @@ TODO: Add long description of the pod here.
   if ENV['USE_FRAMEWORK']
   else
     s.user_target_xcconfig = {'OTHER_LDFLAGS' => '-force_load "${PODS_CONFIGURATION_BUILD_DIR}/hippy/libhippy.a"'}
+  end
 end
